@@ -12,11 +12,15 @@ TARGET = Cross-Platform-Application
 TEMPLATE = app
 
 SOURCES += main.cpp \
+    CpuWidget.cpp \
     MainWindow.cpp \
-    SysInfoWidget.cpp \
-	Sysinfo.cpp
+    MemoryWidget.cpp \
+    SysInfo.cpp \
+    SysInfoWidget.cpp
 
 HEADERS += MainWindow.h \
+    CpuWidget.h \
+    MemoryWidget.h \
     SysInfo.h \
     SysInfoWidget.h
 

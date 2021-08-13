@@ -1,10 +1,9 @@
 #include <QtGlobal>
-#include <QVector>
 
 #include "SysInfo.h"
 
 #ifdef Q_OS_WIN
-    #include <SysInfoWindowsImpl.h>
+    #include "SysInfoWindowsImpl.h"
 #endif
 
 SysInfo& SysInfo::instance()
